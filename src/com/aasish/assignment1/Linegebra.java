@@ -26,8 +26,8 @@ public class Linegebra implements Gradient, Equation, Distance {
 		else {
 		
 		String lineequation = (y2-y1)+"x - " + (x2-x1)+"y = " + (x1*y2 - x2*y1);
-		return lineequation;	
-		}
+		return lineequation;
 	}
 
+}
 }
